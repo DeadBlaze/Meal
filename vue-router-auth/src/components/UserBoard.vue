@@ -40,7 +40,6 @@
 </template>
 
 <script>
-  var i = 0;
   import json from '../../../data.json'
   export default {
     data () {
