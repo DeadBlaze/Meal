@@ -155,4 +155,9 @@
     width: 100px;
     height: 100px;
   }
+  #cart-total {
+    position:fixed;
+    top:100px;
+    right:100px;
+  }
 </style>
