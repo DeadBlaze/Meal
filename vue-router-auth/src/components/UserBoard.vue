@@ -4,8 +4,8 @@
     <ul v-for="title in msg"
     :key="title.id">
       <li><img v-bind:src="title.picture"/></li>
-      <li>{{title.title}}</li>
-      <li>{{title.cost}}</li>
+      <li>{{title.title}}, </li>
+      <li>{{title.cost}} руб.</li>
       <div v-if="!title.inCart">
         <input v-model="title.qty" type="number" min="1" max="10" step="1" value=":title.qty">
         <button @click="add(title)">Add</button>
